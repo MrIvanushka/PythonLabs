@@ -32,18 +32,20 @@ pygame.init()
 FPS = 30
 screen = pygame.display.set_mode((400, 500))
 
-DrawBackgroundLine((0, 0, 64),0,70)
+DrawBackgroundLine((0, 0, 180),0,70)
 DrawBackgroundLine((133, 64, 148),70,30)
 DrawBackgroundLine((255, 128, 192),100,60)
 DrawBackgroundLine((255, 108, 142),160,80)
 DrawBackgroundLine((254, 196, 1),240,40)
-DrawBackgroundLine((0, 100, 100),280,220)
+DrawBackgroundLine((70, 70, 228),280,220)
 
 DrawBird((100, 100), 3)
 DrawBird((50, 60), 3)
 DrawBird((280, 80), 3)
 
-DrawBigBird(300, (50, 220))
+DrawBigBird(200, (50, 220))
+DrawBigBird(200, (100, 100))
+DrawBigBird(150, (200, 400))
 
 pygame.display.update()
 
